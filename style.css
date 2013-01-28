@@ -1,0 +1,75 @@
+p, label {
+    font-size: 14px;
+    text-align: left;
+    color: #424242;
+    padding: 0px;
+    margin: 0px;
+}
+
+.reg_form {
+    border: 1px solid gray;
+    font-size: 16px;
+    width: 230px;
+    text-align: center;
+    padding: 10px 10px;
+    background-color: #BCE693;
+    margin: 20px;
+    float: left;
+    color: #424242;
+}
+
+.info_form {
+    font-size: 16px;
+    width: 350px;
+    text-align: center;
+    padding: 10px 10px;
+    background-color: #BCE693;
+    margin: 20px auto;
+    color: #424242;
+}
+
+#caption_form {
+    text-align: center;
+    font-size: 18px;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+.form_text {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.sorry_text {
+    font-size: 18px;
+    color: #424242;
+    text-align: center;
+}
+
+.search_text {
+    width: 70%;
+    font-size: 15px;
+}
+
+.info_text {
+    width: 78%;
+    font-size: 15px;
+}
+
+.table {
+    text-align: center;
+}
+
+.left_td {
+    text-align: right;
+    font-style: italic;
+    width: 40%;
+}
+
+.table_search td {
+    width: 25%;
+}
+
+.table_search th {
+    padding: 15px;
+}
