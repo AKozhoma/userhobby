@@ -25,7 +25,7 @@
 <?php
         $name_hobby = $_POST['name_hobby'];
         $id_user = $_POST['id_user'];    
-        echo "<p class='sorry_text'>Here you can change your hobby, remember that you are now interested in <strong>".$name_hobby."</strong></p>"; 
+        echo "<p class='sorry_text_info'>Here you can change your hobby, remember that you are now interested in <strong>".$name_hobby."</strong></p>"; 
         echo "<br><p>select a new hobby:";
 ?>
         <input type="hidden" name="id_user" value="<?php echo $id_user; ?>" />
@@ -33,7 +33,7 @@
             <?php include ('blocks/select_hobby.php'); ?>
         </select>
 
-        <input type="submit" value="Change" name="change1" /></p>
+        <input type="submit" value="Change" name="change1" class="buttonS" /></p>
     </form>
 <?php            
     }
@@ -45,13 +45,13 @@
 <?php
         $password = $_POST['password'];
         $id_user = $_POST['id_user'];
-        echo "<p class='sorry_text'>Here you can change your password</p>"; 
+        echo "<p class='sorry_text_info'>Here you can change your password</p>"; 
         echo "<br><p>its your old password: <strong>".$password.'</strong></p>';
         echo "<p>enter new password: ";
 ?>
         <input type="hidden" name="id_user" value="<?php echo $id_user; ?>" />        
         <input type="text" size="20" name="password" class="info_text" />
-        <input type="submit" value="Change" name="change2" /></p>
+        <input type="submit" value="Change" name="change2" class="buttonS" /></p>
     </form>
 <?php
     }

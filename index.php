@@ -26,8 +26,8 @@
     <p><input type="text" size="30" class="form_text" name="login" required="required" /></p></label>
     <label><p>Password:</p>
     <p><input type="password" size="30" class="form_text" name="password" required="required" /></p></label>
-    <p><input type="reset" value="Reset" />
-    <input type="submit" value="Confirm" name="submit" /></p>
+    <p><input type="reset" value="Reset" class="buttonL" />
+    <input type="submit" value="Confirm" name="submit" class="buttonR" /></p>
 </form>
 
 <form action="main.php" method="post" class="reg_form" >
@@ -36,8 +36,8 @@
     <p><input type="text" size="30" class="form_text" name="login" required="required" /></p></label>
     <label><p>Password:</p>
     <p><input type="password" size="30" class="form_text" name="password" required="required" /></p></label>
-    <p><input type="reset" value="Reset" />
-    <input type="submit" value="Login" name="submit2" /></p>
+    <p><input type="reset" value="Reset" class="buttonL" />
+    <input type="submit" value="Login" name="submit2" class="buttonR" /></p>
 </form>
 
 <form action="hobby.php" method="post" class="reg_form" >
@@ -45,9 +45,9 @@
     <label><p>Hobby:</p>
     <p><input type="text" size="30" class="form_text" name="hobby" required="required" /></p></label>
     <label><p>Description:</p>
-    <p><textarea cols="10" rows="5" wrap="virtual" class="form_text" maxlength="200" name="description" required="required"></textarea></p></label>
-    <p><input type="reset" value="Reset" />
-    <input type="submit" value="Add" name="submit3" /></p>
+    <p><textarea cols="10" rows="5" wrap="virtual" class="form_text" maxlength="200" name="description"></textarea></p></label>
+    <p><input type="reset" value="Reset" class="buttonL" />
+    <input type="submit" value="Add" name="submit3" class="buttonR" /></p>
 </form>
 
 <form action="search.php" method="post" class="reg_form" >
@@ -57,11 +57,11 @@
             <?php include ('blocks/select_hobby.php'); ?>
         </select>
     </label>
-    <input type="submit" value="Search" name="submit_hobby" /></p>
+    <input type="submit" value="Search" name="submit_hobby" class="buttonS" /></p>
     
     <p><label>Find all users with date of birthday:
     <input type="text" size="20" class="search_text" name="birthday" value="1985-01-01" required="required" /></label>
-    <input type="submit" value="Search" name="submit_birth" /></p>
+    <input type="submit" value="Search" name="submit_birth" class="buttonS" /></p>
 </form>
 
 </body>

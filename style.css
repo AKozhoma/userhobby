@@ -16,6 +16,12 @@ p, label {
     margin: 20px;
     float: left;
     color: #424242;
+    border:3px solid #F4A460;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    behavior: url('PIE/PIE.htc');
 }
 
 .info_form {
@@ -26,38 +32,112 @@ p, label {
     background-color: #BCE693;
     margin: 20px auto;
     color: #424242;
+    border:3px solid #F4A460;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    behavior: url('PIE/PIE.htc');
 }
 
 #caption_form {
     text-align: center;
     font-size: 18px;
-    text-decoration: underline;
     margin-bottom: 10px;
+    padding: 5px;
+    background-color: #FFFAFA;
+    border: 1px solid #F4A460;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -khtml-border-radius: 6px;
+    behavior: url('PIE/PIE.htc');
+}
+
+#caption_info_form {
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    width: 350px;
+    margin: 10px auto;
+    background-color: #FFFAFA;
+    border: 1px solid #F4A460;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -khtml-border-radius: 6px;
+    behavior: url('PIE/PIE.htc');
 }
 
 .form_text {
     width: 100%;
     margin-bottom: 5px;
+    background-color: #FFFAFA;
+    border: 1px solid #F4A460;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -khtml-border-radius: 6px;
+    behavior: url('PIE/PIE.htc');
 }
 
 .sorry_text {
+    font-size: 20px;
+    color: #424242;
+    text-align: center;
+    margin: 10px 10%;
+    padding: 10px;
+    background-color: #FFFAFA;
+    border: 1px solid #F4A460;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -khtml-border-radius: 6px;
+    behavior: url('PIE/PIE.htc');
+}
+
+.sorry_text_info{
     font-size: 18px;
     color: #424242;
     text-align: center;
+    width: 95%;
+    margin: 5px auto;
+    padding: 5px;
+    background-color: #FFFAFA;
+    border: 1px solid #F4A460;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -khtml-border-radius: 6px;
+    behavior: url('PIE/PIE.htc');
 }
 
 .search_text {
     width: 70%;
-    font-size: 15px;
+    background-color: #FFFAFA;
+    border: 1px solid #F4A460;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -khtml-border-radius: 6px;
+    behavior: url('PIE/PIE.htc');
 }
 
 .info_text {
     width: 78%;
     font-size: 15px;
+    background-color: #FFFAFA;
+    border: 1px solid #F4A460;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -khtml-border-radius: 6px;
+    behavior: url('PIE/PIE.htc');
 }
 
 .table {
     text-align: center;
+    margin: auto;
 }
 
 .left_td {
@@ -72,4 +152,45 @@ p, label {
 
 .table_search th {
     padding: 15px;
+}
+
+.buttonL {
+    text-align: center;
+    padding: 4px;
+    margin: 3px 10%;
+    float: left;
+    background-color: #F4A460;
+    border: 1px solid #FFFAFA;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -khtml-border-radius: 6px;
+    behavior: url('PIE/PIE.htc');
+}
+
+.buttonR {
+    text-align: center;
+    padding: 4px;
+    margin: 3px 10%;
+    float: right;
+    background-color: #F4A460;
+    border: 1px solid #FFFAFA;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -khtml-border-radius: 6px;
+    behavior: url('PIE/PIE.htc');
+}
+
+.buttonS {
+    text-align: center;
+    padding: 4px;
+    margin: 0px 2px 0px 10px;
+    background-color: #F4A460;
+    border: 1px solid #FFFAFA;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -khtml-border-radius: 6px;
+    behavior: url('PIE/PIE.htc');
 }

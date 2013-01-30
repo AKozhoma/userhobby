@@ -45,7 +45,7 @@
             if (isset($_POST['hobby'])) {$hobby = $_POST['hobby'];}
             if (isset($_POST['login'])) {$login = $_POST['login'];}
             if (isset($_POST['password'])) {$password = $_POST['password'];}
-        
+            
             $result = mysql_query("SELECT * FROM user WHERE login='$login'", $db);
             if (mysql_num_rows($result)>0)
             {
@@ -145,14 +145,14 @@
         $myrow_hobby = mysql_fetch_array($result_hobby);
         $name_hobby = $myrow_hobby['name_hobby'];
     
-        echo '<p id="caption_form">Hello, '.$myrow_info['name_user'].' ('.$myrow_info['login'].')!</p>';
+        echo '<p id="caption_info_form">Hello, '.$myrow_info['name_user'].' ('.$myrow_info['login'].')!</p>';
     
 ?>
    
     <form class="info_form" method="post" action="change_data.php">
         <table class="table">
         <tr>
-            <th colspan="3"><?php echo 'YOUR PERSONAL INFORMATION'; ?></th>
+            <th colspan="3" id="caption_form"><?php echo 'YOUR PERSONAL INFORMATION'; ?></th>
         </tr>
         
         <tr>
@@ -176,7 +176,7 @@
             <input type="hidden" name="name_hobby" value="<?php echo $myrow_hobby['name_hobby']; ?>" />
             <input type="hidden" name="password" value="<?php echo $myrow_info['password']; ?>" />
             <input type="hidden" name="id_user" value="<?php echo $myrow_info['id_user']; ?>" />
-            <td><input type="submit" value="Change hobby" name="ch_hobby" /></td>
+            <td><input type="submit" value="Change hobby" name="ch_hobby" class="buttonR" /></td>
         </tr>
         
         <tr>
@@ -187,7 +187,7 @@
         <tr>
             <td class="left_td"><?php echo 'password:'; ?></td>
             <td><?php echo $myrow_info['password']; ?></td>
-            <td><input type="submit" value="Change password" name="ch_password" /></td>
+            <td><input type="submit" value="Change password" name="ch_password" class="buttonR" /></td>
         </tr>
         
         </table>
