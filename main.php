@@ -2,8 +2,8 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
-<title>Test task Inuits</title>
-<link href="style.css" rel="stylesheet" type="text/css" />
+<title>User's Forms</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
     <script type="text/javascript">
         function redirect($str)
         {

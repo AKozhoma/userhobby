@@ -26,7 +26,7 @@ p, label {
 
 .info_form {
     font-size: 16px;
-    width: 350px;
+    width: 600px;
     text-align: center;
     padding: 10px 10px;
     background-color: #BCE693;
@@ -113,7 +113,7 @@ p, label {
 }
 
 .search_text {
-    width: 70%;
+    width: 160px;
     background-color: #FFFAFA;
     border: 1px solid #F4A460;
     border-radius: 6px;
@@ -147,7 +147,7 @@ p, label {
 }
 
 .table_search td {
-    width: 25%;
+    width: 130px;
 }
 
 .table_search th {
