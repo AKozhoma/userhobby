@@ -166,6 +166,7 @@ p, label {
     -webkit-border-radius: 6px;
     -khtml-border-radius: 6px;
     behavior: url('PIE/PIE.htc');
+    color: #fff;
 }
 
 .buttonR {
@@ -180,6 +181,7 @@ p, label {
     -webkit-border-radius: 6px;
     -khtml-border-radius: 6px;
     behavior: url('PIE/PIE.htc');
+    color: #fff;
 }
 
 .buttonS {
@@ -193,4 +195,5 @@ p, label {
     -webkit-border-radius: 6px;
     -khtml-border-radius: 6px;
     behavior: url('PIE/PIE.htc');
+    color: #fff;
 }
